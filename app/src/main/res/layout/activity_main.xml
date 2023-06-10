@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Weather animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieWeather"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/anim_sun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Top header -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IoT Device Monitoring"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_below="@id/lottieWeather"
+        android:layout_marginTop="16dp" />
+
+    <!-- Sensor panels container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tvHeader"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Temperature sensor panel -->
+        <LinearLayout
+            android:id="@+id/temperaturePanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/panel_background"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvTemperatureLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperature"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvTemperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!-- Humidity sensor panel -->
+        <LinearLayout
+            android:id="@+id/humidityPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/panel_background"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvHumidityLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Humidity"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvHumidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!-- Rain sensor panel -->
+        <LinearLayout
+            android:id="@+id/rainPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/panel_background"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvRainLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rain"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvRain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Water pump control -->
+    <Button
+        android:id="@+id/btnWaterPump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Pump: OFF"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp" />
+
+</RelativeLayout>

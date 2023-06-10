@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "529975413591",
+    "project_id": "enviroment-plant-detection-db",
+    "storage_bucket": "enviroment-plant-detection-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529975413591:android:b008ba28385db059b34c12",
+        "android_client_info": {
+          "package_name": "com.example.enviromentplantdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529975413591-hllts14d3jtml9u1a2avrf71u6i4hmru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYcVhxNnBMkqqG8tZFPAG3qc6R3L1PUfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529975413591-hllts14d3jtml9u1a2avrf71u6i4hmru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
