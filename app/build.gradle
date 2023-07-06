@@ -42,8 +42,14 @@ dependencies {
     //firebase
     implementation platform('com.google.firebase:firebase-bom:32.1.0')
     implementation 'com.google.firebase:firebase-analytics'
-
+    implementation 'com.jjoe64:graphview:4.2.2'
     //lottie
     implementation 'com.airbnb.android:lottie:4.2.0'
+    
+
+
+
+
+
 
 }

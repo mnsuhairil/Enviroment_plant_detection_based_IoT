@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Enviroment plant detection</string>
+    <string name="grid_color">#5A5A5A</string>
+    <color name="graph_series_color">#FF0000</color>
+    <color name="graph_grid_color">#808080</color>
+    <color name="graph_background_color">#FFFFFF</color>
+
 </resources>

@@ -1,15 +1,21 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
 pluginManagement {
     repositories {
         google()
+        mavenLocal()
         mavenCentral()
+        maven { url 'https://www.myget.org/F/abtsoftware/maven' }
         gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
+        mavenLocal()
         mavenCentral()
+        maven { url 'https://www.myget.org/F/abtsoftware/maven' }
     }
 }
 rootProject.name = "Enviroment plant detection"

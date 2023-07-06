@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "529975413591",
+    "firebase_url": "https://enviroment-plant-detection-db-default-rtdb.firebaseio.com",
     "project_id": "enviroment-plant-detection-db",
     "storage_bucket": "enviroment-plant-detection-db.appspot.com"
   },

@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Background color of the graph frame -->
+    <stroke
+        android:color="#000000"
+        android:width="10dp" />
+    <corners android:radius="20dp" /> <!-- Border radius of the graph frame -->
+</shape>

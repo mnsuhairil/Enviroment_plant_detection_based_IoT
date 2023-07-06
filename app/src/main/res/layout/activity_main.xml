@@ -118,6 +118,17 @@
                 android:textColor="#FFFFFF"
                 android:textAlignment="center" />
         </LinearLayout>
+        <!-- Date TextView -->
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:text="System Operation Time"
+            android:layout_below="@id/tvHeader"
+            android:layout_marginTop="16dp" />
     </LinearLayout>
 
     <!-- Water pump control -->
